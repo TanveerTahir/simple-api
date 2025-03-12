@@ -27,6 +27,7 @@ fastapi dev main.py # Get the swagger ui link
 
 # Paste the following link into your browser:
 http://127.0.0.1:8000/side_hustles
+
 http://127.0.0.1:8000/money_quotes
 
 # swagger UI:
