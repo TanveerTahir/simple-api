@@ -54,14 +54,18 @@ def read_root():
     }
 
 @app.get("/side_hustles")
-def get_side_hustles():
+def get_side_hustles(): # insid (apikey: str) pass this apikey: str
     """Returns a random side hustle idea"""
-    return{"side_hustle": random.choice(side_hustles)}
+    # if apikey != "1234567890":
+        # return {"error": "Invalid API key"}
+    return {"side_hustle": random.choice(side_hustles)}
 
 @app.get("/money_quotes")
-def get_money_quotes():
+def get_money_quotes(): # inside (apikey: str) pass this apikey: str
     """Returns a random money quote"""
-    return{"money_quote": random.choice(money_quotes)}
+    # if apikey != "1234567890":
+        # return {"error": "Invalid API key"}
+    return {"money_quote": random.choice(money_quotes)}
 
 
 
